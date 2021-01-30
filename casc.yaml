@@ -1,0 +1,14 @@
+jenkins:
+  securityRealm:
+    local:
+      allowSignup: false
+      users:
+        - id: ${JENKINS_ADMIN_ID}
+          password: ${JENKINS_ADMIN_PASSWORD}
+
+
+unclassified:
+  location:
+    url: "http://192.168.4.88:8080/"
+  resourceRoot:
+    url: "http://localhost:8080/"
