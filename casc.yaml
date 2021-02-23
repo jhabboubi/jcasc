@@ -20,6 +20,6 @@ security:
 
 unclassified:
   location:
-    url: "http://192.168.4.88:8080/"
+    url: "http://192.168.4.21:8080/"
   resourceRoot:
     url: "http://localhost:8080/"
